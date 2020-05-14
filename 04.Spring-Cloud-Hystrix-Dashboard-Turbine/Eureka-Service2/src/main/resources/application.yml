@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: server2
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: lovrth
+    password: 123456
