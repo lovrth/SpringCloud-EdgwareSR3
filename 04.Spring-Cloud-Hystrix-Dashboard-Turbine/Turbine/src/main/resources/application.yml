@@ -1,0 +1,15 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: Turbine
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://lovrth:123456@localhost:8080/eureka/,http://lovrth:123456@localhost:8081/eureka/
+turbine:
+  app-config: Ribbon-Consumer
+  cluster-name-expression: new String('default')
+  combine-host-port: true
