@@ -1,0 +1,36 @@
+server:
+  port: 12580
+
+spring:
+  application:
+    name: Zuul-Gateway
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://lovrth:123456@localhost:8080/eureka/,http://lovrth:123456@localhost:8081/eureka/
+
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      url: http://localhost:8082
+    api-b:
+      path: /api-b/**
+      serviceId: server-provider
+    api-c:
+      path: /api-c/**
+      serviceId: feign-consumer
+    # 服务优先级
+    api-d:
+      path: /api-c/user/1
+      serviceId: lol
+    # 本地获取服务
+    api-e:
+      path: /api-e/**
+      url: forward:/test
+  ignored-services: fegin-consumer
+  sensitive-headers:
+  add-host-header: true
+
+
