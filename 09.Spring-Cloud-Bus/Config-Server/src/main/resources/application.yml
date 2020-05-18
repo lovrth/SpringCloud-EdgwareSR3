@@ -13,6 +13,11 @@ spring:
           password: AM3Zv7SRtaNN6R+Qk13VuZoV0EalpEtyiJn86AE9ropNO1Iqly8N+oC4oKH3hqqR/N76VisdMGf+ZziiKM2FMRwetk7i18UDDa4SmOoGjR1M6PQ0ZbXKTQWrzz4nDYNOfd7pBbHaR8sNqBCr2PWZLo/Wgj0+WdZdXuco4VYy6lp14hnETVVti1BPUeIQXmz+76umN1RpreeG61VH/NUDcsWL1k8l69A1jHZzRgHpB0nsdjkt/tmmtdzfKpgAzVEi1DCTmN7CkcFzAjr9g9QCUmxF+o44k7pOy35PdxKPIo7A7EANaTo1KepAmsXO2lNYNFi/QI3QmsgcWh8Bjb0CrQecNAZH5D4BWu4aXzpJKj/pL+Nboq0Eury9yKjuJQLrA=
 #          search-paths: '{application}'
           clone-on-start: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 security:
   user:
