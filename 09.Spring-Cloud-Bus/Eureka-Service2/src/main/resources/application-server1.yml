@@ -15,3 +15,4 @@ eureka:
     fetch-registry: true
     serviceUrl:
       defaultZone: http://lovrth:123456@localhost:8081/eureka/
+

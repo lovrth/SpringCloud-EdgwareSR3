@@ -6,4 +6,5 @@
 - Spring Cloud Hystrix Dashboard 仪表盘 & RabbitMQ
 - Spring Cloud Feign 声明式服务调用
 - Spring Cloud Zuul 服务网关
-- Spring Cloud Config统一配置管理
+- Spring Cloud Config 统一配置管理
+- 使用Spring Cloud Bus 刷新配置
