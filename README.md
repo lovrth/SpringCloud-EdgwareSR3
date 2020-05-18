@@ -7,4 +7,5 @@
 - Spring Cloud Feign 声明式服务调用
 - Spring Cloud Zuul 服务网关
 - Spring Cloud Config 统一配置管理
-- 使用Spring Cloud Bus 刷新配置
+- Spring Cloud Bus 刷新配置
+- Spring Cloud Sleuth 跟踪微服务

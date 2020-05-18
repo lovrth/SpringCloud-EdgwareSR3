@@ -23,7 +23,7 @@ message: 'pro properties (master v1.0)'
 ，可使用对称加密和非对称加密
 
 - 对Config-Server进行集群处理,并加入注册中心
-- 刷新配置（post）：http://localhost:12580/bus/refresh
+- 刷新配置（post）：curl -u lovrth:123456 -X POST http://localhost:12580/bus/refresh
 - 配合WebHooks技术可以实现自动配置刷新，在配置得到修改的时候可以代替向Config-Server发送刷新请求
 
 
