@@ -21,9 +21,5 @@ message: 'pro properties (master v1.0)'
 
 > Config-Server中包含了Git连接信息，通过Spring Security来做用户名密码认证，Config-Server中Git仓库的密码是直接明文配置的，对这些敏感信息进行加密处理
 ，可使用对称加密和非对称加密
-```
-- 非对称加密
-1. keytool -genkeypair -alias Config-Server -keyalg RSA -keystore config-server.keystore
-2. 
-```
+
 
