@@ -1,9 +1,9 @@
 server:
-  port: 9000
+  port: 9001
 
 spring:
   application:
-    name: server-provider1
+    name: server-provider2
   zipkin:
     base-url: http://localhost:9100
 

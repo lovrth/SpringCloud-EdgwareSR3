@@ -11,8 +11,8 @@
     <groupId>com.example</groupId>
     <artifactId>demo</artifactId>
     <version>0.0.1</version>
-    <name>Server-Provider1</name>
-    <description>Server-Provider1</description>
+    <name>Server-Provider2</name>
+    <description>Server-Provider2</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -35,11 +35,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-ribbon</artifactId>
-        </dependency>
-        <!-- 微服务跟踪 -->
+        <!-- sleuth追踪 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-sleuth</artifactId>

@@ -8,4 +8,5 @@
 - Spring Cloud Zuul 服务网关
 - Spring Cloud Config 统一配置管理
 - Spring Cloud Bus 刷新配置
-- Spring Cloud Sleuth 跟踪微服务
+- Spring Cloud Sleuth 服务追踪 & Zipkin
+- Spring Cloud Consul 服务治理
